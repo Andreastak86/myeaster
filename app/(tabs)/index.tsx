@@ -21,34 +21,29 @@ export default function HomeScreen() {
                 <ThemedText type='title'>Påsken 2025 🐣🐤</ThemedText>
             </ThemedView>
             <ThemedView style={styles.stepContainer}>
-                <Text>
+                <Text style={{ color: Colors.light.tint, fontSize: 16 }}>
                     Våren har endelig meldt sin ankomst, og påsken minner oss om
                     at sommerens sol og varme snart er innen rekkevidde. Det er
                     en fantastisk tid på året, fylt med nytt liv og håp.
                 </Text>
             </ThemedView>
             <ThemedView style={styles.stepContainer}>
-                <ThemedText type='subtitle'>Step 2: Explore</ThemedText>
-                <ThemedText>
-                    Tap the Explore tab to learn more about what's included in
-                    this starter app.
-                </ThemedText>
+                <Text style={{ color: Colors.light.tint, fontSize: 20 }}>
+                    Jeg har selvfølgelig spist kviklønsj, drukket solo, spist en
+                    appelsin eller to.
+                </Text>
             </ThemedView>
             <ThemedView style={styles.stepContainer}>
-                <ThemedText type='subtitle'>
-                    Step 3: Get a fresh start
-                </ThemedText>
-                <ThemedText>
-                    When you're ready, run{" "}
-                    <ThemedText type='defaultSemiBold'>
-                        npm run reset-project
-                    </ThemedText>{" "}
-                    to get a fresh{" "}
-                    <ThemedText type='defaultSemiBold'>app</ThemedText>{" "}
-                    directory. This will move the current{" "}
-                    <ThemedText type='defaultSemiBold'>app</ThemedText> to{" "}
-                    <ThemedText type='defaultSemiBold'>app-example</ThemedText>.
-                </ThemedText>
+                <Text style={{ color: Colors.light.tint, fontSize: 16 }}>
+                    Håper du har hatt en fin påskeferie, og at du har fått tid
+                    til å slappe av og nyte tiden med familie og venner. Det er
+                    alltid viktig å sette pris på de små øyeblikkene i livet.
+                </Text>
+            </ThemedView>
+            <ThemedView style={styles.stepContainer}>
+                <Text style={{ color: Colors.light.tint, fontSize: 16 }}>
+                    Bruk knappen nede for å se et utvalg bilder jeg tok i påsken
+                </Text>
             </ThemedView>
         </ParallaxScrollView>
     );
@@ -63,6 +58,7 @@ const styles = StyleSheet.create({
     stepContainer: {
         gap: 8,
         marginBottom: 8,
+        fontSize: 16,
     },
     chickPic: {
         height: 250,
